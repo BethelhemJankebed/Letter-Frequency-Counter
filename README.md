@@ -1,23 +1,26 @@
-# Letter-Frequency-Counter
-This is a simple C++ program that:
+ 📊 Letter Frequency Counter in C++
 
-Takes a sentence or paragraph input from the user.
+This is a simple yet powerful C++ program that lets you write about your day — and then analyzes the text by counting how often each letter appears. It's a fun way to practice file handling, character processing, and basic algorithms in C++.
 
-Saves the input text to a file named story.txt.
+---
 
-Reads the file back and counts the occurrences of each letter (case-insensitive).
+ 💡 What This Program Does
 
-Displays the frequency of each letter (a to z) in the console.
+✔️ Prompts the user to write about their day  
+✔️ Saves the text to a file called `story.txt`  
+✔️ Reads the file back character by character  
+✔️ Counts how many times each letter from `a` to `z` appears (case-insensitive)  
+✔️ Prints the results in a clean, readable format
 
-How It Works
-The program prompts the user to enter text describing their day.
+---
 
-It writes the input text to story.txt.
+ 🛠️ Technologies Used
 
-It opens story.txt and reads it character by character.
+- 💻 C++  
+- 📄 File Input/Output (`fstream`)  
+- 🔠 Character manipulation and counting  
+- 🧠 Basic algorithm and logic building
 
-It converts uppercase letters to lowercase.
+---
 
-It counts how many times each letter appears.
 
-Finally, it prints the count of each letter to the console.
